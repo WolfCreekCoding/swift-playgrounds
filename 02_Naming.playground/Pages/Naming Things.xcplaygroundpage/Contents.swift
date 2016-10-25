@@ -6,7 +6,7 @@
 //: In Swift, you can choose a name and associate it with a value by defining a _constant_. You’ll explore constants in more detail later in the course. For now, it’s enough to know that constants are a fundamental way of naming values in Swift.
 //:
 //: Use the word `let` followed by a name to define a constant and the equal sign `=` to give a value to the constant:
-let numberOfDogs = 6
+let numberOfDogs = 6 + 3
 
 let numberOfCats = 5
 
@@ -18,7 +18,7 @@ let numberOfHamsters = 1
 
 let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters
 
-let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
+let totalNumberOfMammals = totalNumberOfAnimals - numberOfTurtles
 
 //: Now it will be much easier — and less error-prone — to update the number of a certain kind of animal. You only have to update the value where the constant is defined.
 //:

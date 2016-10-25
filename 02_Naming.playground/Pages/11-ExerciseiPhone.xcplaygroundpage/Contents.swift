@@ -15,16 +15,13 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
-let iPhoneCapacity = 8000  //8GB
+let iphoneStorage = 8000
 
-let iPhoneStuffOnPhone = 3000
+let alreadyOnIphone = 3000
 
-let iPhoneAvailibleSpace = iPhoneCapacity - iPhoneStuffOnPhone
+let oneMinute = Double(150)
 
-let oneMinuteVideoSize = 150
-
-let numberOfMinutesThatWillFit = iPhoneAvailibleSpace / oneMinuteVideoSize
-
+let howManyMinutes =  oneMinute * 33.33333333333333333
 
 
 

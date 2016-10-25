@@ -24,7 +24,25 @@ let rhso = co - lhso
 
 
 //: - experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
+let numberOfOrangePallets = 14
 
+let numberOfWaterMelonPallets = 3
+
+let weightOfOrangePallets = 100
+
+let weightOfWaterMelonPallets = 200
+
+let totalWeightOfOranges = numberOfOrangePallets * weightOfOrangePallets
+
+let totalWeightOfWaterMelons = numberOfWaterMelonPallets * weightOfWaterMelonPallets
+
+let totalWeight = totalWeightOfOranges + totalWeightOfWaterMelons
+
+let equalWeightOnSides = totalWeight / 2
+
+let leftSideWeightCount = equalWeightOnSides / 100
+
+let rightSideWeightCount = numberOfOrangePallets - leftSideWeightCount
 
 
 
